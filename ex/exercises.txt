@@ -1,0 +1,29 @@
+0. Choose a public api, make a call and get the result by using both then method and async/await as well.
+
+1. Given an array of objects that have a field called population, sort the objects by population size. 
+Return the sorted array.
+
+2. Write a function that takes two objects as arguments.
+    Merge both objects and create another object that has fields from the arguments.
+    Return the resulting object
+    Ex: For an input {'a': 1, 'b': 2}, {'c': 3, 'd': 4} it should return another object with 
+the properties 'a', 'b', 'c', 'd'.
+
+3. Write a function that takes an array of strings as argument. Group those strings by their first letter. 
+    Return an object that contains properties with keys representing first letters
+    The values should be arrays of strings containing only the corresponding strings
+    For example, the array ['Alf', 'Alice', 'Ben'] should be transformed to
+    Ex: { a: ['Alf', 'Alice'], b: ['Ben']}
+
+4. Create a class called CustomList with these methods:
+    insertFirst(data)
+    insertLast(data)
+    getFirst()
+    getLast()
+
+Make sure you test the functionality by creating some objects.
+Bonus: Create a class for a LinkedList.
+
+5. An Armstrong number is an n-digit number that is equal to the sum of the nth powers of its digits. 
+    Determine if the input number is an Armstrong number. Return either true or false.
+    Ex: 1^3 + 5^3 + 3^3 = 153
